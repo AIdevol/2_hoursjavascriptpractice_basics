@@ -176,11 +176,11 @@ This function takes a limit as input and returns an array of all prime numbers u
 **Question 15:** Create an object representing a person with properties like name, age, and address.
 
 ```javascript
-const person = {
-  name: "John Doe",
-  age: 30,
-  address: "123 Main Street",
-};
+// const person = {
+//   name: "John Doe",
+//   age: 30,
+//   address: "123 Main Street",
+// };
 ```
 This code creates an object representing a person with the properties `name`, `age`, and `address`. The object is initialized with the values `John Doe`, 30, and `123 Main Street`, respectively.
 
@@ -214,3 +214,42 @@ This code loops through the `numbers` array and displays each element in the con
 // }
 ```
 This function takes an array and an item as input and removes the item from the array. If the item is not in the array, the function does nothing.
+
+Here are the commented answers to the remaining two coding and programming questions for JavaScript practice:
+
+**Question 19:** Create a simple calculator program that can perform addition, subtraction, multiplication, and division.
+
+```javascript
+// function calculate(operation, a, b) {
+//   switch (operation) {
+//     case "+":
+//       return a + b;
+//     case "-":
+//       return a - b;
+//     case "*":
+//       return a * b;
+//     case "/":
+//       return a / b;
+//     default:
+//       return "Invalid operation";
+//   }
+// }
+
+// const result = calculate("+", 1, 2);
+// console.log(result); // 3
+```
+This function takes an operation, a number, and another number as input and performs the specified operation on the two numbers. The function then returns the result of the operation. If the operation is invalid, the function returns the string "Invalid operation".
+
+**Question 20:** Write a function to check if a given string is a palindrome.
+
+```javascript
+// function isPalindrome(string) {
+//   const reversedString = string.split("").reverse().join("");
+//   return string === reversedString;
+// }
+
+// const isPalindromeResult = isPalindrome("racecar");
+// console.log(isPalindromeResult); // true
+```
+This function takes a string as input and returns `true` if the string is a palindrome, and `false` otherwise. A palindrome is a word or phrase that reads the same backward as it does forward.
+
